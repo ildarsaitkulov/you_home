@@ -59,3 +59,67 @@ ul, li {
     font-size: 13px;
 }
 
+.search-form-field {
+    background-color: transparent;
+    background: url(../img/search.svg) no-repeat right;
+    background-size: 13px;
+    border:0;
+    border-bottom: 1px solid #FFFFFF;
+    width: 170px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.search-form-field::placeholder {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.tel {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.phone-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.shopping-cart-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.total-price {
+    color: white;
+    margin-left: 7px;
+}
+
+.registration-wrapper {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.registration-vertical-line {
+    margin-left: 7px;
+    margin-right: 7px;
+}
