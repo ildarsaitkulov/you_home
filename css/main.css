@@ -14,6 +14,24 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     text-transform: uppercase;
 }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
 ul, li {
     display: block;
     padding: 0;
@@ -179,4 +197,118 @@ ul, li {
     height: 517px;
     background: url(../img/offer-bg.png) no-repeat center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.offer-container {
+    margin-left: 52px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+}
+
+.offer-price-text {
+    margin-top: 38px;
+}
+.offer-price-description, .offer-buy-button {
+    margin-top: 21px;
+}
+
+.offer-box {
+    width: 524px;
+    height: 277px;
+
+    background: rgba(228, 198, 167, 0.32);
+    border-radius: 3px;
+}
+
+.offer-price-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #643C20;
+}
+
+.offer-price-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    width: 315.92px;
+
+    color: #745036;
+}
+
+.offer-buy-button {
+    width: 219.81px;
+    height: 62.57px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #633C20;
+}
+
+.goods-items {
+    display: flex;
+}
+
+.goods-item-wrapper {
+    border: 1px solid black;
+    width: 270px;
+    height: 379px;
+}
+
+.goods-item-container {
+    display: flex;
+    flex-direction: column;
+    margin: 27px;
+}
+
+.goods-item-bg {
+    background-size: cover;
+    height: 223px;
+    width: 224px;
+}
+
+.goods-item-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #643C20;
+}
+
+.goods-item-description-wrapper {
+    margin-top: 4px;
+}
+
+.goods-item-description {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #673D1E;
+}
+
+.goods-item-price {
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #E76509;
 }
