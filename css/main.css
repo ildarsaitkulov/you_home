@@ -260,10 +260,14 @@ ul, li {
 
 .goods-items {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .goods-item-wrapper {
-    border: 1px solid black;
+    position: relative;
+    background-color: white;
+    box-shadow: 12px 5px 20px rgba(194, 149, 105, 0.88);
     width: 270px;
     height: 379px;
 }
@@ -311,4 +315,23 @@ ul, li {
     /* identical to box height */
 
     color: #E76509;
+}
+.new-goods-wrapper {
+    margin-top: 100px;
+}
+
+.new-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #643C20;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.new-logo {
+    position: absolute;
+    top: 9px;
+    left: 9px;
 }
