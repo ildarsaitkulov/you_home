@@ -335,3 +335,25 @@ ul, li {
     top: 9px;
     left: 9px;
 }
+
+.catalog {
+    margin-top: 100px;
+    background: rgba(194, 149, 105, 0.88);
+    height: 701px;
+
+    display: flex;
+
+}
+
+.catalog__wrapper {
+    margin-top: 100px;
+}
+
+.catalog-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
