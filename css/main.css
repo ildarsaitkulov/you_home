@@ -357,3 +357,37 @@ ul, li {
     /* identical to box height */
     color: #FFFFFF;
 }
+
+
+.catalog-items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.catalog-item-wrapper {
+    position: relative;
+    background-color: white;
+    box-shadow: 12px 5px 20px rgba(194, 149, 105, 0.88);
+    width: 270px;
+    height: 377px;
+}
+.catalog-item-container {
+    display: flex;
+    flex-direction: column;
+    margin: 27px;
+}
+.catalog-item-bg {
+    background-size: cover;
+    height: 270px;
+    margin-bottom: 28px;
+}
+
+.catalog-item-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #643C20;
+}
